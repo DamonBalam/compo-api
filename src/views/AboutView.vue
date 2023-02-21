@@ -1,5 +1,14 @@
+<script>
+export default {
+  setup() {
+
+    
+
+  },
+};
+</script>
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>LifeCycle hooks</h1>
   </div>
 </template>

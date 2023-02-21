@@ -23,7 +23,7 @@ export default {
     const ironman = ref({ name: "Tony", age: 50 });
     const hulk = reactive({ name: "Bruce", age: 50 });
 
-    const ironmanIsAlive = reactive(false);
+    const ironmanIsAlive = ref(false);
     const hulkIsAlive = ref(true);
 
     const changeStatus = () => {
